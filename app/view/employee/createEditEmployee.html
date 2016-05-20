@@ -1,0 +1,39 @@
+
+
+<div ng-controller="EmployeeCtrl">
+	<form>
+    
+    <h2 align="center">Employee Details</h2>
+    <table cellspacing="5px" cellpadding="5%" align="center">
+       <tr>
+              <td  align="right">First Name:</td>
+              <td><input type="text" ng-model="employee.fName"/></td>
+       </tr>
+
+       <tr>
+              <td align="right">Middle Name:</td>
+              <td><input type="text" ng-model="employee.mName"/></td>
+       </tr>
+       <tr>
+              <td align="right">Last Name:</td>
+              <td><input type="text" ng-model="employee.lName" /></td>
+       </tr>
+       <tr>
+              <td align="right">Contact Number:</td>
+              <td><input type="text" ng-model="employee.cNumber" /></td>
+       </tr>
+       <tr>
+              <td valign="top" align="right">Email:</td>
+              <td><input type="text" ng-model="employee.email" /></td>
+       </tr>
+
+
+
+        <tr>
+        	<td> <input type="button" value="Submit" ng-click="saveData()"/></td>
+        </tr>
+</table> 
+    </form>
+
+
+</div>
