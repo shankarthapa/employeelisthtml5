@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
 <head>
+
 	<title>Employee Directory with Angularjs</title>
 
 	<script type="text/javascript" src="js/lib.min.js"></script>
+	
 	<link rel="stylesheet" type="text/css" href="css/lib.css"/>
 
 	<script type="text/javascript" src="js/main.min.js"></script>
@@ -11,6 +13,7 @@
 <body ng-controller="MainController">
 <h2>Employe Directory</h2>
 <div>
+
 	<span>Add New Employee</span><button ng-click="createNewEmployee()">Add</button>
 </div>
 <div ng-include = "'view/employee/list.html'"></div>
