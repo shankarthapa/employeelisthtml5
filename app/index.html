@@ -11,12 +11,18 @@
 	<script type="text/javascript" src="js/main.min.js"></script>
 </head>
 <body ng-controller="MainController">
+
 <h2>Employe Directory</h2>
+
 <div>
+
 
 	<span>Add New Employee</span><button ng-click="createNewEmployee()">Add</button>
 </div>
 <div ng-include = "'view/employee/list.html'"></div>
+
 <div ng-show="false" ng-include = "'view/employee/createEditEmployee.html'"></div>
+
 </body>
+
 </html>
